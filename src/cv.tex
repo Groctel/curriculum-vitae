@@ -1,0 +1,47 @@
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\usepackage[spanish]{babel}
+
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+\fontdir[fonts/]
+\colorlet{awesome}{awesome-nephritis}
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbf{\cdotp}\quad}
+
+\photo{./taxo-rubio.jpg}
+\name{Atanasio}{Rubio Gil}
+\position{Estudiante de Ingeniería Informática en la UGR{\enskip\cdotp\enskip}Graduado en Comunicación Audiovisual}
+\mobile{NOMOBILEPHONE}
+\email{groctel@protonmail.com}
+% \homepage{taxorubio.com} The sit is down as of now :(
+\github{Groctel}
+\linkedin{atanasiorubio}
+% \gitlab{gitlab-id}
+\stackoverflow{10826835}{groctel}
+% \extrainfo{extra informations}
+\quote{``La introducción de números como coordenadas es un acto de violencia'' Hermann Weyl}
+
+\begin{document}
+
+\makecvheader[R]
+\makecvfooter%
+  {}
+  {Compila este currículum: \url{https://github.com/Groctel/curriculum-vitae}}
+  {}
+
+\input{cv/education.tex}
+\input{cv/skills.tex}
+\input{cv/experience.tex}
+
+\end{document}
